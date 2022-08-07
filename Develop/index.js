@@ -2,15 +2,16 @@
 import inquirer from "inquirer";
 import fs from 'fs'
 import util from "util"
-import generateMarkdown from "./utils/generateMarkdown.js"
+import genMarkDown from "./utils/generateMarkdown.js"
 const writeFile= util.promisify(fs.writeFile);
 const readmeLoc = "./dist/README.md"
 
 // TODO: Create an array of questions for user input
-const questions = () =>{
 
-return inquirer
-    .questions([
+const questions = () => {
+
+    return inquirer
+        .prompt([
         {   
             type: "input",
             name: "title",
@@ -74,7 +75,7 @@ return inquirer
  async function init() { 
     try {
         const userAnswers = await questions();
-        const generateReadme = generateMarkdown(userAnswers);
+        const generateReadme = genMarkDown(userAnswers);
         await writeFile(readmeLoc, generateReadme)
         console.log("Your readme has been created! It can be found in the dist folder!")
     }   catch(err) {

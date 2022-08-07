@@ -1,15 +1,29 @@
 {
-  "name": "static-site",
+  "name": "readmegen",
   "version": "1.0.0",
-  "description": "",
+  "description": "Readme Generator Application",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^6.3.1"
-  }
+    "inquirer": "^6.5.2",
+    "nodemon": "^2.0.19"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChucktownTiger/readme-generator.git"
+  },
+  "keywords": [
+    "Readme",
+    "Generator",
+    "Inquirer"
+  ],
+  "bugs": {
+    "url": "https://github.com/ChucktownTiger/readme-generator/issues"
+  },
+  "homepage": "https://github.com/ChucktownTiger/readme-generator#readme"
 }
-
