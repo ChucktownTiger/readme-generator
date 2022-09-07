@@ -1,7 +1,7 @@
  
-  # Test
+  # Test readme Generator
   ## Description
-  Yes
+  A javascript program running on inqurire to produce readmes
   ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
@@ -11,20 +11,20 @@
 - [Tests](#tests)
 - [Questions](#questions)
   ## Installation
-    Nope
-  ## Usage
-    Blah
-  ## Contributors
     yes
+  ## Usage
+    Leanr inquirer
+  ## Contributors
+    Todd Holley
     ## Tests
     No
   ## License   
-    ![badge](https://img.shields.io/badge/license-Mozilla-brightgreen)<br />
-    This application is covered by the Mozilla license. 
+    ![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br />
+    This application is covered by the MIT license. 
   ## Questions
-    asdfd<br />
+    Check Readme<br />
     <br />
-    GitHub: [asdfsd](https://github.com/asdfsd)<br />
+    GitHub: [ChucktownTiger](https://github.com/ChucktownTiger)<br />
     <br />
-    Email: lskdf@lkasdf.com
+    Email: clemsonalum07@gmail.com
   
